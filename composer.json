@@ -1,0 +1,25 @@
+{
+    "name": "xxl/xxl-unified-code",
+    "authors": [
+        {
+            "name": "xxL",
+            "email": "715417367@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xxl\\Unifiedcode\\": "src/Xxl/Unifiedcode/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xxl\\Unifiedcode\\UnifiedcodeServiceProvider"
+            ],
+            "aliases": {
+                "Unifiedcode": "Xxl\\Unifiedcode\\Facades\\Unifiedcode"
+            }
+        }
+    }
+}
